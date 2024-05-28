@@ -10,6 +10,7 @@ class WallpaperApp extends StatelessWidget {
     return MaterialApp.router(
       routerConfig: router,
       title: 'Wallpaper',
+      debugShowCheckedModeBanner: false,
     );
   }
 }
